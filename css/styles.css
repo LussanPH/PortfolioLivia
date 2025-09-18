@@ -1,0 +1,891 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/sugo-pro-display-regular-trial-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-color: #e9feff;
+    margin: 0;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+#imagens_topo{
+    height: 100px;
+    width: auto;
+    margin: 20px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    height: 125px;
+    width: 350px;
+    cursor: pointer;
+}
+#decoracoes_topo{
+    height: 125px;
+    width: 300px;
+}
+#topicos{
+    height: 50px;
+    width: auto;
+    display: flex;
+    margin: 50px 20px 0 20px;
+    gap: 100px;
+    justify-content: center;
+    border-radius: 5px;
+}
+.classebtn{
+    position:relative;
+    height: 100px;
+    width: 200px;
+}
+.img_btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    padding: 0;
+    top:10px;
+    left: -5px;
+    background-color: #ff3131;
+    border: solid 1px black;
+}
+.img_btn img{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 25px;
+    height: 25px;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: solid 1px #ff3131;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    color: #63d0d4;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #000;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    box-shadow: 0 0px 5px rgb(240, 44, 44);
+}
+#cartoon{
+    height: 400px;
+    width: 300px;
+    box-shadow: 2px 2px 10px gray;
+}
+#primeiraArea{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    height: 400px;
+    margin: 40px 50px 0 50px;
+    width: auto;
+}
+#textoMain{
+    width: 600px;
+    font-family: 'Montserrat';
+    color: red;
+    padding: 10px 20px 10px 20px;
+    font-size: 25px;
+    text-align: justify;
+    background-size: cover;
+    border: 4px solid #28c6cc;
+    box-shadow: 2px 2px 10px gray;
+}
+.icone{
+    font-size: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: #ff3131;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transition: all 0.3s ease;
+}
+.icone:hover{
+    transform: scale(1.5);
+}
+.textoSobreMim{
+    border: 5px solid #28c6cc;
+    border-radius: 20px;
+    color: #d53030;
+    font-family: "Montserrat";
+    background-color: #fcfaf6;
+    padding: 10px 0 10px 0;
+    width: auto;
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+#bloco1{
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+#bloco2{
+    width: 60%;
+    margin: 30px 0 0 13%;
+}
+#sorrisoLingua{
+    position: absolute;
+    height: 12%;
+    width: 7%;
+    left: 50px;
+}
+#textoEImg1{
+    display: flex;
+    gap: 50px;
+    height: 160px;
+}
+#medica{
+    height: 150px;
+    width: 90px;
+    padding: 10px 0 0 0;
+}
+#bloco3{
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+#coracaoAzul{
+    width: 7%;
+    height: 12%;
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+#brilhoVermelho{
+    width: 5%;
+    height: 10%;
+    position: absolute;
+    right: 60px;
+    top: 450px;
+}
+#textoEImg2{
+    display:flex;
+    gap: 20px;
+    margin: 20px 0 0 10%;
+}
+#casal{
+    width: 100px;
+    height: 100px;
+}
+#bloco4{
+    width: 80%;
+    padding-top: 20px;
+}
+#laco{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 40px;
+}
+#bloco5{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    position: relative;
+}
+#cinema{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 10%;
+    top:10px;
+}
+#coracoesAzuis{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    left: 50px;
+}
+#textoEImg3{
+    display:flex;
+    gap: 20px;
+    margin: 0 0 0 10%;
+}
+#bloco6{
+    width: 80%;
+    padding-top: 30px;
+}
+#garotaLendo{
+    width:100px;
+    height: 120px;
+}
+#bloco7{
+    width: 80%;
+    margin: 20px auto 0 auto;
+    position: relative;
+}
+#caixaPizza{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    right: -110px;
+    top: -20px;
+}
+#morangoFeliz{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -50px;
+    top: -75px;
+}
+#bloco8{
+    position: relative;
+    margin: 30px auto 0 10%;
+    width: 60%;
+}
+#doceBranco{
+    width:100px;
+    height:100px;
+    position: absolute;
+    top:-20px;
+    right: -150px;
+}
+#bloco9{
+    width: 80%;
+    position: relative;
+    margin: 30px auto 0 10%;
+}
+#exercicio{
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top:-20px;
+    left: -50px;
+}
+#bloco10{
+    width: 60%;
+    position: relative;
+    margin: 30px auto 0 10%;
+}
+#timidez{
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    top: 45px;
+    right: 15%;
+}
+#coracaoLingua{
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top:-20px;
+    right: -150px;
+}
+#bloco11{
+    width: 70%;
+    position: relative;
+    margin: 30px 10% 0 auto;
+}
+#cantar{
+    width:100px;
+    height:120px;
+    position: absolute;
+    top: 10px;
+    left: -150px;
+}
+#chapeuBobo{
+    width:50px;
+    height:40px;
+    position: absolute;
+    top: 40px;
+    right: -10px;
+    z-index: 1;
+}
+#bloco12{
+    width: 70%;
+    position: relative;
+    margin: 10px 10% 0 auto;
+}
+#bloco13{
+    width: 80%;
+    position: relative;
+    margin: 30px 10% 0 auto;
+}
+#narizSorriso{
+    width:40px;
+    height:30px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+#bloco14{
+    width: 70%;
+    position: relative;
+    margin: 30px auto 0 10%;
+}
+#gravata{
+    width:20px;
+    height:50px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+#projetoNariz{
+    width:100px;
+    height:150px;
+    position: absolute;
+    top:-20px;
+    right:-150px
+}
+#surpresa{
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 50px;
+}
+.linhaPodios{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+}
+.divpodio{
+    width: 20%;
+    height: 200px;
+    position: relative;
+}
+.podio{
+    width: 100%;
+    height: 100%;
+}
+.terceiro{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    top: -100px;
+    right: -5%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.terceiro:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+.segundo{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    top: -125px;
+    left: -5%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.segundo:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+.primeiro{
+    width: 34%;
+    height: 200px;
+    position: absolute;
+    top: -190px;
+    left: 32%;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.primeiro:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#tickets{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: -100px;
+    top: -230px;
+}
+#livros{
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    right: -175px;
+    bottom: -100px;
+}
+#coroa{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: -175px;
+    top: -230px;
+}
+#arcoIris{
+    width: 150px;
+    height: 100px;
+    position: absolute;
+    right: -175px;
+    bottom: -100px;
+}
+#tambor{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    left: -150px;
+    top: -225px;
+}
+#nota{
+    width: 130px;
+    height: 100px;
+    position: absolute;
+    right: -150px;
+    bottom: -100px;
+}
+#microfone{
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    right: -150px;
+    bottom: -100px;
+}
+.textoCuriosidades{
+    border: 5px dotted #28c6cc;
+    border-radius: 20px;
+    color: #d53030;
+    font-family: "Montserrat";
+    background-color: #fcfaf6;
+    padding: 10px 20px 10px 20px;
+    width: auto;
+    text-align: center;
+    margin: 0;
+    font-size: 35px;
+    transition: all 0.3s ease;
+}
+.divTextosEImagens{
+    position: relative;
+    height: 500px;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+#texto1{
+    width:40%;
+    position: absolute;
+}
+#tubarao{
+    width: 120px;
+    height: 140px;
+    padding-right: 20px;
+    position: absolute;
+    left: 40%;
+    top: -10px;
+    z-index: 1;
+}
+#texto2{
+    width:50%;
+    position: absolute;
+    right: 0;
+    top: 75px;
+}
+#texto3{
+    width:40%;
+    position: absolute;
+    left: 0;
+    top: 200px;
+}
+#onibus{
+    width: 150px;
+    height: 100px;
+    padding-right: 20px;
+    position: absolute;
+    left: 42%;
+    top: 250px;
+    z-index: 1;
+}
+#texto4{
+    width:60%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#mae{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    z-index: 1;
+}
+#texto5{
+    width:50%;
+    position: absolute;
+}
+#batepapo{
+    width: 125px;
+    height: 100px;
+    position: absolute;
+    top: 125px;
+    right: 45%;
+    z-index: 1;
+}
+#texto6{
+    width:40%;
+    position: absolute;
+    right: 2%;
+    top: 50px;
+}
+#texto7{
+    width:65%;
+    position: absolute;
+    right: 2%;
+    bottom: 75px;
+    margin: 20px 0 20px 0;
+}
+#cupcake{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    bottom: 200px;
+    left: 5%;
+    z-index: 1;
+}
+#pedacoBolo{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    bottom: 100px;
+    left: 15%;
+    z-index: 1;
+}
+#texto8{
+    width:75%;
+    position: absolute;
+    right: 2%;
+    bottom: -25px;
+}
+#texto9{
+    width:75%;
+    position: absolute;
+    left: 0;
+    bottom: -200px;
+    margin-top: 20px;
+}
+#programador{
+    width: 150px;
+    height: 125px;
+    position: absolute;
+    bottom: -200px;
+    right: 5%;
+    z-index: 1;
+}
+#secaoFotos1{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto 0 auto;
+}
+#niver{
+    width: 20%;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#niver:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#fotosVertical{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    gap: 20px;
+    width: 25%;
+    position: relative;
+    top: -20px;
+}
+#pitocoAthena{
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#pitocoAthena:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#livJu{
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#livJu:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#viagem{
+    width: 15%;
+    height: 300px;
+    margin: 65px 0 0 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#viagem:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#festaJovem{
+    width: 25%;
+    height: 500px;
+    position: relative;
+    top: -20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#festaJovem:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#secaoFotos2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto 0 auto;
+}
+#fotosHorizontal1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#junino{
+    width: 25%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#junino:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#primos{
+    width: 25%;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#primos:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#ollie{
+    width: 15%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#ollie:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#fotosHorizontais2{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+#caloura{
+    width: 15%;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#caloura:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#familia{
+    width: 25%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#familia:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#amigas{
+    width: 30%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#amigas:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#secaoFotos3{
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin: 10px 0 0 20%;
+}
+#fotosVertical2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+#fotosHorizontais3{
+    display: flex;
+    gap: 100px;
+}
+#gorda{
+    width: 60%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#gorda:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#filippo{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#filippo:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#fotosHorizontal4{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-right: 50px;
+}
+#bffs{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#bffs:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#zap{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#zap:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#prof{
+    width: 20%;
+    height: 400px;
+    border-radius: 10px;
+    margin: 0 0 0 15%;
+    position: relative;
+    top: 100px;
+    box-shadow: 0px 0px 15px gray;
+    transition: all 0.3s ease;
+}
+#prof:hover{
+    transform: scale(1.5);
+    z-index: 1;
+}
+#game-container {
+    width: 600px;
+    height: 200px;
+    border-bottom: 2px solid #535353; /* Apenas borda inferior para ser o "chão" principal */
+    position: relative;
+    left: 35%;
+    top: 200px;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+#score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    z-index: 10;
+}
+
+#dino {
+    width: 44px;
+    height: 47px;
+    /* Usando um SVG embutido para desenhar o dino. É uma técnica avançada mas eficaz! */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 44 47' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M29 2v2h-2v-2h2zM31 4v2h-2v-2h2zM33 6v2h-2v-2h2zM35 8v2h-2v-2h2zM37 10v2h-2v-2h2zM39 12v2h-2v-2h2zM41 14v2h-2v-2h2zM29 16v2h-2v-2h2zM31 16v2h-2v-2h2zM33 16v2h-2v-2h2zM35 16v2h-2v-2h2zM37 16v2h-2v-2h2zM39 16v2h-2v-2h2zM41 16v2h-2v-2h2zM43 16v2h-2v-2h2zM29 18v2h-2v-2h2zM29 20v2h-2v-2h2zM29 22v2h-2v-2h2zM29 24v2h-2v-2h2zM29 26v2h-2v-2h2zM27 28v2h-2v-2h2zM25 30v2h-2v-2h2zM23 32v2h-2v-2h2zM21 34v2h-2v-2h2zM19 36v2h-2v-2h2zM17 38v2h-2v-2h2zM15 40v2h-2v-2h2zM13 42v2h-2v-2h2zM11 44v2h-2v-2h2zM9 44v2h-2v-2h2zM29 28v2h-2v-2h2zM29 30v2h-2v-2h2zM29 32v2h-2v-2h2zM29 34v2h-2v-2h2zM29 36v2h-2v-2h2zM29 38v2h-2v-2h2zM29 40v2h-2v-2h2zM27 42v2h-2v-2h2zM25 42v2h-2v-2h2zM23 42v2h-2v-2h2zM21 42v2h-2v-2h2zM19 42v2h-2v-2h2zM17 42v2h-2v-2h2zM15 42v2h-2v-2h2z' fill='%23535353'/%3E%3C/svg%3E");
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+#obstacle {
+    width: 20px;
+    height: 40px;
+    /* SVG embutido para o cacto */
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #32f84c;
+    background-color: green;
+    /* A animação agora será controlada via JS para pausar */
+}
+
+/* Animação do obstáculo */
+.move-obstacle {
+    animation: moveObstacle 1.5s linear infinite;
+}
+
+@keyframes moveObstacle {
+    from { left: 600px; }
+    to { left: -20px; }
+}
+
+/* Animação do pulo */
+.jump-animation {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump {
+    0% { bottom: 0; }
+    50% { bottom: 80px; }
+    100% { bottom: 0; }
+}
+
+/* Mensagem de Game Over */
+#game-over-message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: none; /* Começa escondido */
+    z-index: 20;
+}
+#game-over-message h2 {
+    font-size: 24px;
+    margin: 0;
+}
+#game-over-message p {
+    font-size: 12px;
+    margin-top: 10px;
+}
