@@ -815,13 +815,20 @@ body{
     transform: scale(1.5);
     z-index: 1;
 }
+#textoJogo{
+    width: auto;
+    font-family: 'Montserrat';
+    color: red;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+}
 #game-container {
     width: 600px;
     height: 200px;
     border-bottom: 2px solid #535353; /* Apenas borda inferior para ser o "chão" principal */
     position: relative;
-    left: 35%;
-    top: 200px;
+    margin: 0 auto 0 auto;
     overflow: hidden;
     background-color: #ffffff;
     background-image: url("../img/topicos_fundo2.jpg");
